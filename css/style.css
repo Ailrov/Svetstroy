@@ -1,0 +1,327 @@
+body {
+	margin:0;
+	padding:0;
+	min-width:1255px;
+	font:16px Verdana;
+}
+
+p {
+	text-indent:30px;
+	margin:20px;
+}
+
+#header h1 {
+	background:#3d3d3d;
+	color:#fff;
+}
+
+.Menu-top {
+	background:#3d3d3d;
+	padding:10px;
+}
+
+.Menu-top li {
+	display:inline;
+	margin:40px;
+}
+
+.Menu-top a {
+	background:#3d3d3d;
+	color:#fff;
+	padding:10px;
+	transition: 0.5s all;
+	
+}
+
+.Menu-top a:hover {
+	background:#666;
+	padding:10px 0 10px 20px;
+}
+
+a {
+	text-decoration:none;
+}
+
+.menu, .menu ul {
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+
+.side {
+	width:200px;
+	margin:20px;
+	float:left;
+}
+
+.menu a {
+	background:#3d3d3d;
+	color:#fff;
+	padding:10px;
+	display:block;
+	border-bottom:1px solid #666;
+	transition:0.5s all;
+}
+
+.menu a:hover {
+	background:#666;
+	padding:10px 0 10px 20px;
+}
+
+.menu li:first-child a, 
+.menu li .submenu li:first-child a,
+.menu li .submenu .submenu1 li:first-child a{
+	border-radius: 5px 5px 0 0;
+}
+
+.menu li:last-child a, 
+.menu li .submenu li:last-child a,
+.menu li .submenu .submenu1 li:last-child a{
+	border-radius:0 0 5px 5px;
+	border-bottom:0;
+	border-bottom:1px solid #666;
+}
+
+.menu li .submenu li a,
+.menu li .submenu .submenu1 li a {
+	border-radius:0;
+}
+
+.menu_list {
+	position:relative;
+}
+
+
+.submenu {
+	position:absolute;
+	width:100%;
+	left:100%;
+	top:-9999em;
+	opacity:0;
+	border-left:5px solid transparent; 
+	transition:0.5s opacity;
+}
+
+.submenu1 {
+	position:absolute;
+	width:100%;
+	left:100%;
+	top:86%;
+	opacity:0;
+	border-left:5px solid transparent; 
+	transition:0.5s opacity;
+}
+
+.menu_list:hover .submenu {
+	opacity:1;
+	top:0
+}
+
+.menu_list:hover  .menu_list1:hover .submenu1 {
+	opacity:1;
+	
+}
+
+.menu_list::after {
+	content:" ";
+	position: absolute;
+	border:5px solid;
+	border-color:transparent transparent transparent #FFFFFF;
+	top:1em;
+	right:0.7em;
+	transition:0.5s;
+}
+
+.menu_list:hover::after {
+	transform: scaleX(-1);
+}
+
+.menu_list1::after {
+	content:" ";
+	position: absolute;
+	border:5px solid;
+	border-color:transparent transparent transparent #FFFFFF;
+	top:18em;
+	right:0.7em;
+	transition:0.5s;
+}
+
+.menu_list1:hover::after {
+	transform: scaleX(-1);
+}
+ 
+#companyimg1 {
+	width:284px;
+	height:189px;
+	float:left;
+	margin:10px;
+}
+
+#companyimg2 {
+	width:278px;
+	height:278px;
+	float:left;
+	margin:10px;
+}
+
+#companyimg {
+	width:30%;
+	height:30%;
+}
+
+#div1 {
+	height:10px;
+}
+
+#div2 {
+	height:20px;
+}
+
+#ceritificate p img {
+	width:50%;
+	height:50%;
+}
+
+#ceritificate p, #our_work p, #company_client p, #Main h2, #about_company h3, #return {
+	text-align:center;
+}
+
+#our_work p img {
+	width:30%;
+	height:30%;
+}
+
+#company_client img {
+	margin: 20px 40px;
+}
+
+#map {
+	border:1px solid #000000;
+}
+
+#contacts {
+	margin:0 20px;
+}
+
+#contacts p {
+	margin:20px;
+}
+
+#power_supports1, #support_flange1, #supports_conical1, #supports_faceted1, #supports_folding1, #ot-1_1, #ot-2_1, #ot-3_1, #supports_high-mast1,
+  #iron_bases1, #iron_bases3 {
+	float:left;
+}
+
+#p2, #p1 {
+	margin-left:520px;
+}
+
+#power_supports2, #support_flange2, #supports_conical2, #supports_faceted2, #supports_faceted3, #supports_folding2, #ot-1_2, #ot-2_2, #ot-3_2,
+supports_high-mast2, #plastic_bases2 {
+	float:right;
+}
+
+#p3 {
+	margin-left:450px;
+}
+
+#h5_1 {
+	margin-left:600px;
+}
+
+#p4 {
+	margin-left:535px;
+}
+
+#textblock {
+	width:983px;
+	height:1000px;
+	float:left;
+}
+
+.cursive {
+	font-style:italic;
+	text-decoration:underline;
+}
+
+#textblock1 {
+	width:665px;
+	float:left;
+}
+
+#textbclok2 {
+	width:778px;
+	float:left;
+}
+
+#textbclok3 {
+	width:638px;
+	float:left;
+}
+
+#textbclok4 {
+	width:1000px;
+	float:right;
+}
+
+#textbclok5 {
+	width:969px;
+	float:right;
+}
+
+#textbclok6 {
+	float:right;
+}
+
+#iron_bases2 {
+	margin-left:800px;
+	float:right;
+}
+
+#textblock7 {
+	position:absolute;
+	top:800px;
+	right:400px;
+}
+
+#iron_bases3 {
+	position:relative;
+	left:250px;
+	top:150px;
+}
+
+#textblock8 {
+	position:absolute;
+	top:1400px;
+	right:80px;
+}
+
+#textblock9 {
+	position:relative;
+	top:650px;
+}
+
+#textblock10, #textblock11, #textblock12 {
+	float:right;
+	width:1000px;
+}
+
+
+#rezka1, #rezka2, #rezka3, #rezka4{
+	width: 367px;
+	height:234px;
+}
+
+#rezka1 {
+	float:left;
+}
+
+#rezka3 {
+	float:right;
+	margin-right:240px;
+}
+
+#rezka4 {
+	float:right;
+	margin-right:30px;
+}
